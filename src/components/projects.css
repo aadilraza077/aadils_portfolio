@@ -1,0 +1,8 @@
+.ProjectCard
+{
+    height:fit-content;
+    border: 2px solid;
+    border-color: white;
+    padding: 10px;
+    margin: 20px;
+}

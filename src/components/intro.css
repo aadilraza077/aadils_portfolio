@@ -1,0 +1,41 @@
+.MainIntro
+{
+    border: 2px solid white;
+    margin: 5%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.MainIntro img
+{
+  width: 35%;
+}
+
+.IntroContent
+{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.IntroContent button {
+
+    font-family: "General-Sans-Medium", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #e5e7eb;
+    background-color: whitesmoke;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    
+  }
+  
+  .IntroContent button:hover {
+    background-color: rgb(62, 62, 196);
+    color: #fff; 
+    border-color: rgb(62, 62, 196); 
+  }
+  

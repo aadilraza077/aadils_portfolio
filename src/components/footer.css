@@ -1,0 +1,23 @@
+.MainFooter
+{
+    
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 10px;
+    
+}
+
+.SocialLinks
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.SocialLinks a
+{
+    padding: 10px;
+}
