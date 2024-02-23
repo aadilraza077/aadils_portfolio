@@ -9,7 +9,7 @@ const ContactForm = () => {
         <h3>Contact Form</h3>
       </div>
       
-      <form onSubmit="" className="contact-form">
+      <form  className="contact-form">
         
         <input
           type="text"
