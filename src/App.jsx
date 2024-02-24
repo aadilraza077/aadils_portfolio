@@ -14,7 +14,7 @@ const App = () => {
           <div className="TitleName">
             <img src={logo} alt="Logo" />
             <h3>
-              <Link to="/Home">Aadils Portfolio</Link>
+              <Link to="/">Aadils Portfolio</Link>
             </h3>
           </div>
 
@@ -35,12 +35,14 @@ const App = () => {
           </div>
         </div>
         <Routes>
-          <Route path="/Home" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/projectspage" element={<Projectspage />} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/ContactForm" element={<ContactForm />} />
         </Routes>
+        <div className="AppFooter">
         <Footer/>
+        </div>
       </>
     </Router>
   );

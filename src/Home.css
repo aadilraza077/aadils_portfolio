@@ -1,0 +1,17 @@
+.HomeProjectSection
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.HomeProjectSection h3
+{
+    font-size:150%;
+}
+.HomeProjects
+{
+    display: flex;
+    flex-direction: row;
+    
+}

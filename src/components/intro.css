@@ -16,7 +16,18 @@
 {
   display: flex;
   flex-direction: column;
+  font-size: x-large;
+  
+}
 
+
+.IntroContent h2 
+{
+  padding: 10px;
+}
+.IntroContent h4
+{
+  padding: 10px;
 }
 
 .IntroContent button {
@@ -37,5 +48,6 @@
     background-color: rgb(62, 62, 196);
     color: #fff; 
     border-color: rgb(62, 62, 196); 
+    transform: scale(1.1);
   }
   
