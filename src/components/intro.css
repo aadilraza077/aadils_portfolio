@@ -1,6 +1,6 @@
 .MainIntro
 {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     margin: 5%;
     padding: 5%;
     display: flex;
@@ -9,7 +9,8 @@
 }
 .MainIntro img
 {
-  width: 35%;
+  width: 550px;
+  
 }
 
 .IntroContent
@@ -50,4 +51,6 @@
     border-color: rgb(62, 62, 196); 
     transform: scale(1.1);
   }
+  
+
   
