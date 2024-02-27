@@ -1,0 +1,12 @@
+.ContactPageContainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10%;
+    
+}
+.ContactDetails
+{
+    margin-left: 30%;
+}

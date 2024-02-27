@@ -50,7 +50,7 @@ const AboutMe = () => {
       </div>
 
       <div className="skillset">
-        <h3>My Skills</h3>
+        <h3>Skills & Technologies</h3>
         <div className="skills">
           <img src={htmllogo} alt="Html5" />
           <img src={csslogo} alt="CSS3" />

@@ -1,4 +1,4 @@
-import ContactForm from "./components/ContactForm";
+import ContactPage from "./components/ContactPage";
 import AboutMe from "./components/AboutMe";
 import "./App.css";
 import logo from "../src/images/logo.jpg";
@@ -28,7 +28,7 @@ const App = () => {
                   <Link to="/AboutMe">About Me</Link>
                 </li>
                 <li>
-                  <Link to="/ContactForm">Contact</Link>
+                  <Link to="/ContactPage">Contact</Link>
                 </li>
               </ul>
             </nav>
@@ -38,7 +38,7 @@ const App = () => {
           <Route path="/" element={<Home/>}/>
           <Route path="/projectspage" element={<Projectspage />} />
           <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/ContactForm" element={<ContactForm />} />
+          <Route path="/ContactPage" element={<ContactPage />} />
         </Routes>
         <div className="AppFooter">
         <Footer/>
