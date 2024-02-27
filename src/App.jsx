@@ -1,7 +1,7 @@
 import ContactPage from "./components/ContactPage";
 import AboutMe from "./components/AboutMe";
 import "./App.css";
-import logo from "../src/images/logo.jpg";
+import logo from "../src/images/logo.png";
 import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom";
 import Projectspage from "./projectspage";
 import Footer from "./components/footer";
