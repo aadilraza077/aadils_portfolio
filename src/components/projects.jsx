@@ -1,5 +1,5 @@
-import React from 'react'
-import "./projects.css"
+import React from "react";
+import "./projects.css";
 
 function Project(props) {
   const { title, description, imageUrl, demoUrl, githubUrl } = props;
@@ -12,12 +12,22 @@ function Project(props) {
         <p className="ProjectDescription">{description}</p>
         <div className="ProjectLinks">
           {demoUrl && (
-            <a href={demoUrl} target="_blank" rel="noopener noreferrer" className="LinkButton">
+            <a
+              href={demoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="LinkButton"
+            >
               Demo
             </a>
           )}
           {githubUrl && (
-            <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="LinkButton">
+            <a
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="LinkButton"
+            >
               GitHub
             </a>
           )}
