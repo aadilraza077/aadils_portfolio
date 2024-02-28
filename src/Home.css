@@ -19,12 +19,11 @@
 .ReadMore 
 {
     padding: 8px 16px;
-    
     border-radius: 4px;
     margin-right: 10px;
     text-decoration: inherit;
     text-transform: none;
-    font-size: larger;
+    font-size: 20px;
     font-weight: bold;
     
 }

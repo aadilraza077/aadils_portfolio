@@ -1,16 +1,9 @@
-import Project from './components/projects'
+import React from 'react'
 
-export const Projectspage = () => {
-
-
+export const projectspage = () => {
   return (
-    <div className="ProjectsModule">
-        <h3>My Projects</h3>
-        <div className="ProjectsContainer">
-          <Project />
-          <Project />
-        </div>
-      </div>
+    <div> This is projectspage</div>
   )
 }
-export default Projectspage
+
+export default projectspage

@@ -12,10 +12,12 @@ const App = () => {
       <>
         <div className="MainHeader">
           <div className="TitleName">
-            <img src={logo} alt="Logo" />
-            <h3>
-              <Link to="/">Aadils Portfolio</Link>
-            </h3>
+      
+              <Link to="/">
+              <img src={logo} alt="Logo" />
+              
+              </Link>
+            
           </div>
 
           <div className="HeaderNavbar">

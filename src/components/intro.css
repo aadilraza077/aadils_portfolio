@@ -1,6 +1,5 @@
 .MainIntro
 {
-    /* border: 2px solid white; */
     margin: 5%;
     padding: 5%;
     display: flex;
@@ -10,6 +9,7 @@
 .MainIntro img
 {
   width: 550px;
+  animation: imageSlideIn 2s ease forwards;
   
 }
 
@@ -29,7 +29,8 @@
 .IntroContent h4
 {
   padding: 10px;
-}
+} 
+
 
 .IntroContent button {
 
@@ -52,5 +53,13 @@
     transform: scale(1.1);
   }
   
-
-  
+  @keyframes imageSlideIn {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

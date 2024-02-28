@@ -16,40 +16,34 @@
 
 .MainHeader {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    
-    font-family: sans-serif;
-    font-weight: bold;
-    color: white;
-}
-
-.TitleName img {
-    border-radius: 10px;
-    width: 40px;
-    margin: 10px;
-
-}
-
-.TitleName {
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .TitleName {
     display: flex;
-
-}
-
-.TitleName h3 {
-    margin: auto;
-    padding-left: 10px;
-}
-
-.HeaderNavbar ul {
-    display: flex;
-
-
-}
-
-
-.HeaderNavbar li {
-    padding: 15px;
+    align-items: center;
+  }
+  
+  .TitleName img {
+    width: 45px;
+    height: 55px;
+  }
+  
+  .HeaderNavbar ul {
     list-style-type: none;
-}
-
+    display: flex;
+    gap: 20px;
+  }
+  
+  
+  .HeaderNavbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px; 
+    transition: all 0.3s ease;
+  }
+  
+  
