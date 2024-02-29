@@ -1,23 +1,24 @@
 .contact-form-container {
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     font-family: "General-Sans-Medium";  
   }
 
-  .contact-form-container h3
+  .contact-form-main h3
   {
     margin: 10px;
     font-size: 25px;
+    padding-bottom: 10px;
   }
   
   .contact-form {
-    background-color: rgba(1, 18, 32, 0.75);
+    background-color: rgba(1, 28, 50, 0.75);
     padding: 40px; 
-    border-radius: 10px;
+    border-radius: 15px;
     width: 400px; 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px rgba(143, 142, 142, 0.1);
     color: white; 
   }
 
@@ -57,3 +58,37 @@
     border-color: rgb(62, 62, 196);
   }
   
+
+
+
+.success-alert {
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(1, 18, 32, 0.75);
+  padding: 20px;
+  box-shadow: 1px 2px 5px rgba(143, 142, 142, 0.1);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.success-alert p {
+  margin: 0;
+  font-size: 16px;
+  background-color: rgb(1, 18, 32, 0.75);
+}
+
+.success-alert button {
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.success-alert button:hover {
+  background-color: rgb(62, 62, 196);
+  color: #fff; 
+  border-color: rgb(62, 62, 196);
+}

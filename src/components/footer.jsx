@@ -7,10 +7,18 @@ const Footer = () => {
     <div className="MainFooter">
       <h3>Follow Me </h3>
       <div className="SocialLinks">
-        <a href="https://www.linkedin.com/in/aadilraza077/">
+        <a 
+        href="https://www.linkedin.com/in/aadilraza077/" 
+        rel="noopener noreferrer" 
+        target="_blank"
+        >
           <img src={linkedin} alt="Linkedin Logo" />
         </a>
-        <a href="https://github.com/aadilraza077">
+        <a 
+        href="https://github.com/aadilraza077" 
+        rel="noopener noreferrer"
+        target="_blank" 
+        >
           <img src={github} alt="GitHub Logo" />
         </a>
       </div>
