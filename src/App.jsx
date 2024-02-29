@@ -1,11 +1,12 @@
-import ContactPage from "./components/ContactPage";
-import AboutMe from "./components/AboutMe";
+import ContactPage from "./pages/ContactPage";
+import AboutMe from "./pages/AboutMe";
 import "./App.css";
 import logo from "../src/images/logo.png";
 import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom";
-import Projectspage from "./projectspage";
+import ProjectsPage from "./pages/ProjectsPage";
 import Footer from "./components/footer";
-import  Home  from "./Home";
+import  Home  from "./pages/Home";
+import projects from "./pages/projectData";
 const App = () => {
   return (
     <Router>
@@ -38,7 +39,7 @@ const App = () => {
         </div>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/projectspage" element={<Projectspage />} />
+          <Route path="/projectspage" element={<ProjectsPage projects={projects}/>} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/ContactPage" element={<ContactPage />} />
         </Routes>

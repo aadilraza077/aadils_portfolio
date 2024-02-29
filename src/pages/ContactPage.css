@@ -1,0 +1,39 @@
+
+.ContactPageContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .ContactDetails {
+    margin-left: 20px; 
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  
+  .ContactDetails h3 {
+    margin-bottom: 10px;
+  }
+  
+  .ContactDetails p {
+    margin: 5px 0;
+  }
+  
+  
+
+  @media (max-width: 768px) {
+    .ContactPageContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ContactDetails {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  }
+  

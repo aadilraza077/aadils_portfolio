@@ -1,0 +1,60 @@
+/* ProjectsPage.css */
+
+.ProjectsPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .ProjectHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ProjectHeader h2 {
+    font-size: 34px;
+    margin-bottom: 5px;
+    padding: 25px;
+  }
+  
+  .ProjectHeader p {
+    font-size: 18px;
+    
+  }
+  
+  .ProjectsPageInput {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 30px;
+
+  }
+  
+  .ProjectsPageInput input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    margin-right: 10px;
+    background-color: rgba(26, 58, 82, 0.75);
+  }
+  
+  .ProjectsPageInput select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 150px;
+    background-color: rgba(26, 58, 82, 0.75);
+  }
+  
+  .ProjectsList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three items per row */
+    grid-gap: 20px;
+  }
