@@ -1,7 +1,8 @@
 # Aadil's Portfolio
 
 This is a Portfolio Website, a React.js application built using Vite. It serves as a showcase of a Software Engineers projects, a brief about the Developer, and a means to get in touch using a contact form.
-
+### Note: Currently the View of the Page is not responsive in the small screens or mobile phones, soon i will add the responsiveness for the Small Screens and Mobile Devices too
+### Any Contributors are Welcome
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Features](#features)
