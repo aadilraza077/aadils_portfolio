@@ -1,7 +1,5 @@
 import Intro from "../components/intro";
 import Project from "../components/projects";
-import projectone from "../images/projectone.png";
-import projecttwo from "../images/projecttwo.png";
 import { Link } from "react-router-dom";
 import "./Home.css";
 export const Home = () => {
@@ -12,26 +10,29 @@ export const Home = () => {
         <h3>My Projects</h3>
         <div className="HomeProjects">
           <Project
-            title="Project One"
-            description="This is the description of the project one "
-            imageUrl={projectone}
-            demoUrl="https://google.com"
-            githubUrl="https://github.com/aadilraza077"
+            title = 'Portfolio Web Application'
+            description = 'A web based application'
+            type = 'web'
+            demoUrl = 'https://example.com/chat'
+            githubUrl = 'https://github.com/aadilraza077'
+            imageUrl = '/src/images/projectfour.png'
           />
 
           <Project
-            title="Project two"
-            description="This is the description of project two"
-            imageUrl={projecttwo}
-            demoUrl="https://google.com"
-            githubUrl="https://github.com/aadilraza077"
+            title= 'Desktop Chat App'
+            description= 'A desktop chat application - for windows'
+            type= 'desktop'
+            demoUrl= 'https://example.com/chat'
+            githubUrl= 'https://github.com/aadilraza077'
+            imageUrl= '/src/images/projectthree.png'
           />
           <Project
-            title="Project three"
-            description="This is the description of project three"
-            imageUrl={projectone}
-            demoUrl="https://google.com"
-            githubUrl="https://github.com/aadilraza077"
+            title= 'File Sharing System'
+            description= 'A Web Based Encrypted File Sharing System'
+            type= 'web'
+            demoUrl= 'https://example.com/chat'
+            githubUrl= 'https://github.com/aadilraza077'
+            imageUrl= '/src/images/projectfive.png'
           />
         </div>
         <div className="ReadMore">

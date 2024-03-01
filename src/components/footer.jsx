@@ -22,7 +22,7 @@ const Footer = () => {
           <img src={github} alt="GitHub Logo" />
         </a>
       </div>
-      <p> &copy; Last Updated February 2024</p>
+      <p> &copy; Last Updated March 2024</p>
     </div>
   );
 };

@@ -2,11 +2,11 @@
 const projects = [
     {
       id: 1,
-      title: 'React Web App',
+      title: 'Charity Website',
       description: 'A web application built with React.js',
       type: 'web',
       demoUrl: 'https://example.com/demo',
-      githubUrl: 'https://github.com/example/react-web-app',
+      githubUrl: 'https://github.com/aadilraza077',
       imageUrl: '/src/images/projectone.png'
     },
     {
@@ -15,17 +15,17 @@ const projects = [
       description: 'A mobile app for managing todos',
       type: 'mobile',
       demoUrl: 'https://example.com/todo',
-      githubUrl: 'https://github.com/example/mobile-todo-app',
+      githubUrl: 'https://github.com/aadilraza077',
       imageUrl: '/src/images/projecttwo.png'
     },
     {
       id: 3,
       title: 'Desktop Chat App',
-      description: 'A desktop chat application',
+      description: 'A desktop chat application - for windows',
       type: 'desktop',
       demoUrl: 'https://example.com/chat',
-      githubUrl: 'https://github.com/example/desktop-chat-app',
-      imageUrl: '/src/images/projectone.png'
+      githubUrl: 'https://github.com/aadilraza077',
+      imageUrl: '/src/images/projectthree.png'
     },
     {
       id: 4,
@@ -33,26 +33,26 @@ const projects = [
       description: 'A web based application',
       type: 'web',
       demoUrl: 'https://example.com/chat',
-      githubUrl: 'https://github.com/example/desktop-chat-app',
-      imageUrl: '/src/images/projecttwo.png'
+      githubUrl: 'https://github.com/aadilraza077',
+      imageUrl: '/src/images/projectfour.png'
     },
     {
       id: 5,
-      title: 'Android Calculator App',
-      description: 'A android application',
-      type: 'mobile',
+      title: 'File Sharing System',
+      description: 'A Web Based Encrypted File Sharing System',
+      type: 'web',
       demoUrl: 'https://example.com/chat',
-      githubUrl: 'https://github.com/example/desktop-chat-app',
-      imageUrl: '/src/images/projectone.png'
+      githubUrl: 'https://github.com/aadilraza077',
+      imageUrl: '/src/images/projectfive.png'
     },
     {
       id: 6,
-      title: 'Currency Convertor Website',
-      description: 'A web based application',
+      title: 'Used Vehicle Price Prediction',
+      description: 'A web based Machine Learning Application',
       type: 'web',
       demoUrl: 'https://example.com/chat',
-      githubUrl: 'https://github.com/example/desktop-chat-app',
-      imageUrl: '/src/images/projecttwo.png'
+      githubUrl: 'https://github.com/aadilraza077',
+      imageUrl: '/src/images/projectsix.png'
     },
     // Add more projects as needed
   ];

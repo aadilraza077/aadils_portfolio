@@ -11,7 +11,7 @@ const AboutMe = () => {
     <div className="AboutMeContainer">
       <h3>About Me</h3>
       <div className="bio">
-        <img src={profile} alt="giff" />
+        <img src={profile} alt="Profile Photo" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto
           consectetur ipsum, consequatur illum a fugiat vero repudiandae. Autem
