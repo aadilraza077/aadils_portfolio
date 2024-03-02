@@ -9,8 +9,8 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm("service_5wf647b", "template_p3alrvo", e.target, "vU4CnF4WtLFcGF6hv").then((result) =>{
+//Replace the userID, Template_ID, service_ID with your Email JS Account
+    emailjs.sendForm("service_ID", "template_ID", e.target, "User_Id").then((result) =>{
       console.log(result.text);
       setIsSuccess(true);
       setIsFormVisible(false);
